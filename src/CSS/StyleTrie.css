@@ -1,0 +1,63 @@
+/*@author Amaan Izhar */
+
+.root {
+-fx-background-color: linear-gradient(to right, #485563, #29323c);
+}
+
+.separator *.line{
+-fx-border-style: solid;
+-fx-border-width: 1px;
+-fx-background-color: linear-gradient(to bottom, #fc9d03, #fcb103);
+}
+
+.label {
+-fx-border-color: #69b2cf;
+-fx-border-style: solid;
+-fx-border-width: 2px;
+-fx-border-radius: 10;
+-fx-font-weight: bold;
+-fx-text-fill: #f0c851;
+}
+
+.text-field {
+-fx-background-color: #f2e6c2;
+-fx-border-color: #8a68ed;
+-fx-border-style: solid;
+-fx-border-width: 2px;
+-fx-border-radius: 2;
+-fx-font-weight: bold;
+-fx-font-style: italic;
+-fx-text-fill: #545066;
+}
+
+.button {
+-fx-background-color: #f7f6df;
+-fx-font-family: "Calibri";
+-fx-font-size: 16px;
+-fx-font-weight: bold;
+-fx-font-style: italic;
+-fx-text-fill: #545066;
+}
+
+.button:hover {
+-fx-background-color: linear-gradient(to right, #93b3ed, #7ea5ed, #698dcf);
+}
+
+.button:pressed {
+-fx-background-color: #eda353;
+-fx-cursor: pointer;
+-fx-box-shadow: 0 5px gray;
+-fx-transform: translateY(2px);
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: linear-gradient(#328BDB 0%, #207BCF 25%, #1973C9 75%, #0A65BF 100%);
+}
+
+.list-cell {
+-fx-background-color: #f0e3d5;
+-fx-font-size: 17px;
+-fx-text-fill: #121214;
+-fx-font-weight: 650;
+-fx-font-family: "Calibri";
+}

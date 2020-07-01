@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Separator fx:id="horizontalSeparator" layoutX="1.0" layoutY="185.0" prefHeight="0.0" prefWidth="1000.0" AnchorPane.bottomAnchor="512.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="185.0" />
+      <Label fx:id="messageLabel" alignment="CENTER" layoutX="307.0" layoutY="26.0" prefHeight="58.0" prefWidth="411.0" text="Messages will appear here..." AnchorPane.bottomAnchor="616.0" AnchorPane.leftAnchor="307.0" AnchorPane.rightAnchor="282.0" AnchorPane.topAnchor="26.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textField" layoutX="314.0" layoutY="115.0" prefHeight="44.0" prefWidth="422.0" promptText="Type here..." translateX="2.7" AnchorPane.bottomAnchor="541.0" AnchorPane.leftAnchor="314.0" AnchorPane.rightAnchor="290.0" AnchorPane.topAnchor="115.0" />
+      <Button fx:id="createEmptyTrie" layoutX="14.0" layoutY="210.0" mnemonicParsing="false" onAction="#actionCreateEmptyTrie" prefHeight="31.0" prefWidth="269.0" text="CREATE AN EMPTY TRIE" AnchorPane.bottomAnchor="459.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="210.0" />
+      <Button fx:id="createWithLetters" layoutX="14.0" layoutY="241.0" mnemonicParsing="false" onAction="#actionCreateWithLetters" prefHeight="31.0" text="CREATE A TRIE WITH INITIAL LETTERS" translateY="20.0" AnchorPane.bottomAnchor="428.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="241.0" />
+      <Button fx:id="insertWord" layoutX="14.0" layoutY="292.0" mnemonicParsing="false" onAction="#actionInsertWord" prefHeight="31.0" prefWidth="269.0" text="INSERT A WORD" translateY="20.0" AnchorPane.bottomAnchor="377.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="292.0" />
+      <Button fx:id="deleteWord" layoutX="14.0" layoutY="343.0" mnemonicParsing="false" onAction="#actionDeleteWord" prefHeight="31.0" prefWidth="269.0" text="DELETE A WORD" translateY="20.0" AnchorPane.bottomAnchor="326.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="343.0" />
+      <Button fx:id="listWithPrefix" layoutX="14.0" layoutY="394.0" mnemonicParsing="false" onAction="#actionListWithPrefix" prefHeight="31.0" prefWidth="269.0" text="LIST ALL THE WORDS WITH A PREFIX" translateY="20.0" AnchorPane.bottomAnchor="275.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="394.0" />
+      <Button fx:id="printWords" layoutX="14.0" layoutY="445.0" mnemonicParsing="false" onAction="#actionPrintWords" prefHeight="31.0" prefWidth="269.0" text="PRINT ALL THE WORDS IN THE TRIE" translateY="20.0" AnchorPane.bottomAnchor="224.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="445.0" />
+      <Button fx:id="searchWord" layoutX="14.0" layoutY="496.0" mnemonicParsing="false" onAction="#actionSearchWord" prefHeight="31.0" prefWidth="269.0" text="SEARCH A WORD" translateY="20.0" AnchorPane.bottomAnchor="173.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="496.0" />
+      <Button fx:id="sizeTrie" layoutX="14.0" layoutY="547.0" mnemonicParsing="false" onAction="#actionSizeTrie" prefHeight="31.0" prefWidth="269.0" text="SIZE OF THE TRIE" translateY="20.0" AnchorPane.bottomAnchor="122.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="547.0" />
+      <Separator fx:id="verticalSeparator" layoutX="336.0" layoutY="195.0" orientation="VERTICAL" prefHeight="505.0" prefWidth="6.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="336.0" AnchorPane.rightAnchor="685.0" AnchorPane.topAnchor="195.0" />
+      <ListView fx:id="listView" layoutX="360.0" layoutY="206.0" prefHeight="479.0" prefWidth="614.0" AnchorPane.bottomAnchor="16.0" AnchorPane.leftAnchor="360.0" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="206.0" />
+      <Button fx:id="reset" layoutX="14.0" layoutY="598.0" mnemonicParsing="false" onAction="#actionReset" prefHeight="31.0" text="RESET EVERYTHING" translateY="20.0" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="717.0" AnchorPane.topAnchor="598.0" />
+   </children>
+</AnchorPane>
