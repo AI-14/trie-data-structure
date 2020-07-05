@@ -4,7 +4,7 @@
 ## Description
    Design a Trie data structure. For more details, see *LabProject202-192.docx*.
 
-## Screenshots of the application
+## Screenshots of the Application
 ![](images/1.png)
 ![](images/2.png)
 
