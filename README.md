@@ -10,7 +10,7 @@
 
 ## Installation And Usage
 1. Installation
-   - Make sure you have Javafx and Java installed on your machine.
+   - Make sure you have Javafx and Java 8 installed on your machine.
    - Download/clone this repository and create a proper project folder where you will extract this repo's contents.
   
 2. Usage
