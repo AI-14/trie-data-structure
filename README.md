@@ -1,4 +1,6 @@
 # Trie Data Structure
+  ![Java](https://img.shields.io/badge/Java-5181b8?style=flat&logo=java&logoColor=white)
+  
   Course Project: ICS 202/192 - Data Structures and Algorithms
 
 ## Description
