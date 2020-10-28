@@ -14,7 +14,7 @@
 ## Installation And Usage
 1. Installation
    - Make sure you have Javafx and Java 8 installed on your machine.
-   - Download/clone this repository and create a proper project folder where you will extract this repo's contents.
+   - Download/clone this repository.
   
 2. Usage
    - Run ````Main.java```` (src\application\Main.java).
