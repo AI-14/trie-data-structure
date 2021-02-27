@@ -8,13 +8,21 @@
    Design a Trie data structure. For more details, see *LabProject202-192.docx*.
 
 ## Screenshots Of The Application
+<details>
+  <summary>Click to expand!</summary>
+  
 ![](images/1.png)
 ![](images/2.png)
+</details>
 
 ## Installation And Usage
+<details>
+  <summary>Click to expand!</summary>
+  
 1. Installation
    - Make sure you have Javafx and Java 8 installed on your machine.
    - Download/clone this repository.
   
 2. Usage
    - Run ````Main.java```` (src\application\Main.java).
+</details>
