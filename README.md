@@ -10,6 +10,7 @@
 ## Screenshots Of The Application
 <details>
   <summary>Click to expand!</summary>
+  <br/>
   
 ![](images/1.png)
 ![](images/2.png)
