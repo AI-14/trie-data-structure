@@ -4,7 +4,7 @@
   
 Course Project: ICS 202/192 - Data Structures and Algorithms
 
-# Table of contents
+## Table of contents
 1. [Description](#description)
 2. [Screenshots](#screenshots)
 3. [Installation and Usage](#installation-usage)
