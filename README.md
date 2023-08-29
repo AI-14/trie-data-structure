@@ -20,3 +20,4 @@ It is a desktop GUI application for a visually traceable Trie data structure. Fo
   - `javafx`
 - `git clone https://github.com/AI-14/trie-data-structure.git` - clones the repository
 - `cd trie-data-structure`
+- Run `src\application\Main.java`
